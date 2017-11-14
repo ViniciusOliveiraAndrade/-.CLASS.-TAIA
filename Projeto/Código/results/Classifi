@@ -1,0 +1,11 @@
+1 - Positiva : Texto subjetivo contendo apenas palavras positivas sobre o político.
+
+2 - Negativa: Texto subjetivo contendo apenas palavras negativas sobre o político.
+
+3 - ambas: Texto subjetivo contendo apenas palavras positvas e negaticas.
+
+4 - Neutras : Texto objetivo ou seja que não exprime uma opnião.
+
+5 - Irrelevante: propaganda ou texto não relacionado ao projeto
+
+6 - ironia: Texto com opinião mas que contem "hastags' ou "emoticons' que indicam opinião oposta.
