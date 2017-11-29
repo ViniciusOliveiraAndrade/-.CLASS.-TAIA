@@ -77,6 +77,37 @@ def quantidadePN(diretorio):
     print("|Vinícius\t| %i\t\t| %i\t\t| %i\t| %i\t\t| %i\t\t| %i"%(vp,vn,va,vne,vi,vir))
     print(lt+"\n")
 
+def quantidadePNT(diretorio):
+    
+    p = 0
+    n = 0
+    a = 0
+    ne = 0
+    i = 0
+    ir = 0
+       
+    with open(diretorio) as arquivocsv:
+        ler = csv.DictReader(arquivocsv, delimiter=",")
+        for linha in ler:
+             
+            if str(linha["Classificação"]) == "1":
+            	p +=1
+            if str(linha["Classificação"]) == "2":
+            	n +=1
+            if str(linha["Classificação"]) == "3":
+            	a +=1
+            if str(linha["Classificação"]) == "4":
+            	ne +=1
+            if str(linha["Classificação"]) == "5":
+            	i +=1
+            if str(linha["Classificação"]) == "6":
+            	ir +=1
+           
+    print(lt)
+    print("\n|Nome\t\t| Positivos\t| Negativos\t| Ambas\t| Neutras\t| Irrelevantes\t| Ironias")
+    print("|Total\t\t| %i\t\t| %i\t\t| %i\t| %i\t\t| %i\t\t| %i"%(p,n,a,ne,i,ir))
+    print(lt+"\n")
+
 #Função para remover acentos e emogis
 def remover_acentos(txt):
      return normalize('NFKD', txt).encode('ASCII','ignore').decode('ASCII')
@@ -98,5 +129,6 @@ def menu():
 		menu()
 
 #menu()
-calcular_kappa(d)
-quantidadePN(d)
+#calcular_kappa(d)
+#quantidadePN(d)
+quantidadePNT(d)
