@@ -1,0 +1,34 @@
+__________________
+__________________|
+Vinicius	  |
+		  |
+Acentuação - não  |
+Stemização - sim  |
+N-gran - não	  |
+TF-IDF - sim	  |
+__________________|
+__________________|
+Andre 		  |
+		  |
+Acentuação - sim  |
+Stemização - não  |
+N-gran - sim	  |
+Frequencia - sim  |
+__________________|
+__________________|
+
+
+ANDRE FELIPE GOUVEIA FARIAS 	Remover 		Não 	Sim 	Frequencia
+VINÍCIUS DE OLIVEIRA ANDRADE	Não remover 		Sim 	Não 	TF-IDF
+
+
+Eliaquin - 9.9643-3276
+
+
+1 - Cada aluno realizar a atividade de pré-processomate definida. V
+
+2 - Contar a quantidade de palavras diferentes antes e depois do pré-processamento (tamanho do dicionário). V
+
+3 - Dividir a quantidade de palavras (todas) pelo numero de opiniões, antes e depois do pré-processamento. V
+
+4 - Já tem na biblioteca scikit-learn(import sklearn) a implementação do N-gran = 2 (bigran) word e do TF-IDF. 
