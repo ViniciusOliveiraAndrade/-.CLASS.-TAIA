@@ -11,7 +11,7 @@ base_url = "https://graph.facebook.com/"
 objeto = "1775587326067895"
 campos = "comments.limit(3000)"
 versao = "v2.8/"
-access_token = "EAABZC6IpUAPgBAOfIIyOD38qzKLWRE1ggGnwErbaIZB62e9Pe9BKW8wmGhTCc8o0gvJEvs0TBIfLRLk0wTCu6Y1j1eMSUIZABcy9byhfgLFxoDZAKiFZCgcphlBBrsF9UIq6FNKsA0UPzNA08ZAyNuJNsWBf3uuIMZD"
+access_token = ""
 
 url = "%s%s%s?fields=%s&access_token=%s" % (base_url, versao, objeto, campos, access_token)
 
